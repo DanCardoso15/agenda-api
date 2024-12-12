@@ -25,6 +25,10 @@ const Agendamento = connection.define(
     descricao: {
       type: DataTypes.TEXT,
     },
+    medico: {
+      type: DataTypes.TEXT,
+      allowNull: false,
+    },
   },
   {
     timestamps: false,
